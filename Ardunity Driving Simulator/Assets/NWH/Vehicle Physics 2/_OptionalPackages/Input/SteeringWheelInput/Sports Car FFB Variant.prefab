@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &93946128903920387
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2109106367, guid: 3e1aced4144dd784c8f3878b71b33dcf, type: 3}
+      propertyPath: centerOfMass.x
+      value: 0.00015476628
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109106367, guid: 3e1aced4144dd784c8f3878b71b33dcf, type: 3}
+      propertyPath: centerOfMass.y
+      value: 0.33699274
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109106367, guid: 3e1aced4144dd784c8f3878b71b33dcf, type: 3}
+      propertyPath: centerOfMass.z
+      value: 0.027055562
+      objectReference: {fileID: 0}
+    - target: {fileID: 570990794540276038, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 570990794540276038, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 677.1083
+      objectReference: {fileID: 0}
+    - target: {fileID: 570990794540276038, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.018502712
+      objectReference: {fileID: 0}
+    - target: {fileID: 570990794540276038, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 314.15158
+      objectReference: {fileID: 0}
+    - target: {fileID: 570990794540276038, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.045093667
+      objectReference: {fileID: 0}
+    - target: {fileID: 570990794540276038, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 570990794540276038, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9989828
+      objectReference: {fileID: 0}
+    - target: {fileID: 570990794540276038, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 570990794540276038, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 570990794540276038, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -174.831
+      objectReference: {fileID: 0}
+    - target: {fileID: 570990794540276038, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1890207794752665312, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138067763797180915, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933020428885992226, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: powertrain.transmission._transmissionType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7372666997863621945, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: m_Name
+      value: Sports Car FFB Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7372666998288262869, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: field of view
+      value: 82.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7372666998507301854, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: targetPositionOffset.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7372666999730847991, guid: 3e1aced4144dd784c8f3878b71b33dcf,
+        type: 3}
+      propertyPath: field of view
+      value: 86.1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e1aced4144dd784c8f3878b71b33dcf, type: 3}

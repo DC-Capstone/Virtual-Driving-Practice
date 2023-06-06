@@ -1,0 +1,20 @@
+{
+    "name": "NWH.VehiclePhysics2.Input.SteeringWheel",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b0a6eca0b075c1a488b2694245dfb139",
+        "GUID:d1f87b51c098957419b5dbcc22734501",
+        "GUID:4333e1ebda3404646a79cf687ca3e9e0",
+        "GUID:c76e28da8ce572043b1fb2da95817e18",
+        "GUID:7379deff592276c49acc894a42ac9650"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
