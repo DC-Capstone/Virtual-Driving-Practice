@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2702668250284126053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2702668250284126055}
+  - component: {fileID: 2702668250284126052}
+  - component: {fileID: 2702668250284126054}
+  m_Layer: 0
+  m_Name: SteeringWheelInput_LogitechG29
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2702668250284126055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2702668250284126053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 701.03937, y: -0.76105857, z: 551.99915}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2702668250284126052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2702668250284126053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bb8bd31cd2675b4a85434a96dfc6274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonDown: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  buttonPressed: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  buttonWasPressed: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  useDirectInput: 1
+  steeringSensitivity: 1
+  hShifterUse34asDR: 1
+  vehicleSource: 0
+  vehicleController: {fileID: 0}
+  maximumWheelForce: 100
+  overallEffectStrength: 1.36
+  smoothing: 0
+  wheelRotationRange: 540
+  linearizeSDKInput: 1
+  slipSATCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: -0.9
+      outSlope: 25
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.07
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.16
+      value: 0.93
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.2
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSatForce: 83.5
+  slipMultiplier: 4.5
+  lowSpeedFriction: 50
+  friction: 35.87
+  centeringForceStrength: 30.6
+  centerPositionDrift: 1
+  axisResolution: 65536
+  flipSteeringInput: 0
+  flipThrottleInput: 1
+  flipBrakeInput: 1
+  flipClutchInput: 0
+  flipHandbrakeInput: 1
+  steeringAxis: 0
+  throttleAxis: 1
+  throttleZeroToOne: 1
+  brakeAxis: 5
+  brakeZeroToOne: 1
+  clutchAxis: 6
+  clutchZeroToOne: 0
+  handbrakeAxis: 40
+  handbrakeZeroToOne: 1
+  shiftUpButton: 12
+  shiftDownButton: 13
+  altShiftUpButton: 4
+  altShiftDownButton: 5
+  shiftIntoReverseButton: 18
+  shiftIntoNeutralButton: -1
+  shiftInto1stButton: 12
+  shiftInto2ndButton: 13
+  shiftInto3rdButton: 14
+  shiftInto4thButton: 15
+  shiftInto5thButton: 16
+  shiftInto6thButton: 17
+  shiftInto7thButton: -1
+  shiftInto8thButton: -1
+  shiftInto9thButton: -1
+  handbrakeButton: -1
+  _steeringInput: 0
+  _throttleInput: 0
+  _brakeInput: 0
+  _clutchInput: 0
+  _handbrakeInput: 0
+  _shiftIntoInput: -999
+  _shiftUpInput: 0
+  _shiftDownInput: 0
+  _lowSpeedFrictionForce: 0
+  _totalForce: 0
+  _satForce: 0
+  _frictionForce: 0
+  _centeringForce: 0
+--- !u!114 &2702668250284126054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2702668250284126053}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3047a8618a80261439a21993d26653a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
